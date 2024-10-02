@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  background-color: #eee8e8;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+
+header {
+  background-color: #5cceee;
+  color: #1c1b1b;
+  box-shadow: 0 0 1.2rem 1.2rem rgba(0, 0, 0, 0.17);
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+  font-size: 6.2rem;
+}
+
+#musicas {
+  display: flex;
+  flex-flow: column;
+  gap: 2rem;
+  margin: 7rem 8rem;
+}
+
+#musicas > div {
+  background-color: #5cceee;
+  padding: 2rem 7rem;
+  box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.12);
+  border-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row;
+}
+
+img {
+  height: 15rem;
+  width: 15rem;
+}

@@ -18,7 +18,7 @@ body {
 
 header {
   background-color: #5cceee;
-  color: black;
+  color: #1c1b1b;
   box-shadow: 0 0 1.2rem 1.2rem rgba(0, 0, 0, 0.17);
 }
 
@@ -34,7 +34,7 @@ h1 {
   display: flex;
   flex-flow: column;
   gap: 2rem;
-  margin: 7rem 8rem;
+  margin: 7rem 4rem;
 }
 
 #musicas > div {
